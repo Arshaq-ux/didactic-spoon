@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      margin: 0; padding: 0;
+      display: flex; justify-content: center; align-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      background: white;
+      padding: 20px 28px;
+      border-radius: 14px;
+      box-shadow: 0 6px 16px rgba(0,0,0,.15);
+      max-width: 400px;
+      text-align: center;
+    }
+    h1 { margin-bottom: 12px; font-size: 24px; }
+    p { margin-bottom: 20px; color: #555; }
+    .btn {
+      display: block;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      transition: 0.2s;
+    }
+    .btn:hover { opacity: 0.9; }
+    .btn-mail { background: #3b82f6; }
+    .btn-wa { background: #22c55e; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Contact Me</h1>
+    <p>Hubungi saya lewat email atau WhatsApp.</p>
+
+    <!-- Tombol Email -->
+    <a class="btn btn-mail"
+       href="mailto:arshaqafk@gmail.com?subject=Halo%20-%20Dari%20Website&body=Hai%20Arsha,%0A%0ASaya%20ingin%20bertanya%20tentang%20....%0A%0ATerima%20kasih.">
+       📧 Kirim Email
+    </a>
+
+    <!-- Tombol WhatsApp -->
+    <a class="btn btn-wa"
+       href="https://wa.me/6285189600392?text=Order%20jasa%20web"
+       target="_blank" rel="noopener">
+       💬 Chat WhatsApp
+    </a>
+  </div>
+</body>
+</html>
